@@ -1,0 +1,14 @@
+#gallery{
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+#gallery > li:not(:last-child){
+    margin-right: 20px;
+}
+.image_item{
+    width: 500px;
+    height:100%;
+    
+
+}
