@@ -1,14 +1,13 @@
-#gallery{
-    display: flex;
-    justify-content: center;
-    padding-left: 0px;
+#gallery {
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  list-style: none;
 }
-#gallery > li:not(:last-child){
-    margin-right: 20px;
+#gallery > li:not(:last-child) {
+  margin-right: 20px;
 }
-.image_item{
-    width: 500px;
-    height:100%;
-    
-
+.image_item {
+  width: 500px;
+  height: 100%;
 }
